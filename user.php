@@ -16,7 +16,7 @@ class User
   {
     $this->id = $id;
     $this->name = $name;
-    $this->code = $surname;
+    $this->surname = $surname;
   }
   /**
    * Get the value of id
@@ -176,7 +176,9 @@ class Login extends User
 }
 
 $user = new User(1, 'Mario', 'Rossi');
-$login = new Login ('Mario88', 'mariorossi88@gmail.com', 616161)
+$login = new Login ('Mario88', 'mariorossi88@gmail.com', 616161);
+
+// var_dump($user);
 
 
-
+// var_dump($login);
