@@ -178,7 +178,8 @@ class Login extends User
 $user = new User(1, 'Mario', 'Rossi');
 $login = new Login ('Mario88', 'mariorossi88@gmail.com', 616161);
 
-// var_dump($user);
+var_dump($user);
 
 
-// var_dump($login);
+var_dump($login);
+?>

@@ -120,11 +120,11 @@ class DogFood extends Product
 
         return $this;
     }
-}//  non capisco questo errore da rivederte (Product)
-
+}
+//  non capisco questo errore da rivederte (Product)
 
 $obj = new Product('Ringo star', '€ 55,50' , '0') ;
-$objAssociato = new DogFood()
+$objAssociato = new DogFood();
 var_dump($obj);
 
 ?>
